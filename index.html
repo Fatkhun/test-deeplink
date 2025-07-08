@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain Anda - Dukungan App Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 30px;
+        }
+        .container {
+            padding: 0 20px;
+        }
+        .note {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #4285f4;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Domain Anda</h1>
+        <p>Halaman ini mendukung Android App Links untuk aplikasi Anda</p>
+    </header>
+
+    <div class="container">
+        <h2>Tentang App Links</h2>
+        <p>Halaman ini berfungsi sebagai:</p>
+        <ul>
+            <li>Hosting untuk file <code>assetlinks.json</code> yang diperlukan untuk verifikasi App Links</li>
+            <li>Halaman fallback jika pengguna tidak memiliki aplikasi terinstal</li>
+            <li>Halaman informasi tentang aplikasi Anda</li>
+        </ul>
+
+        <div class="note">
+            <p><strong>Catatan untuk Developer:</strong></p>
+            <p>File <code>assetlinks.json</code> harus diakses via HTTPS di:</p>
+            <code>https://domain-anda.com/.well-known/assetlinks.json</code>
+            <p>Pastikan file tersebut mengikuti format yang benar untuk verifikasi App Links.</p>
+        </div>
+
+        <h2>Download Aplikasi</h2>
+        <p>Jika Anda belum menginstal aplikasi kami, Anda bisa mendapatkannya di:</p>
+        <p>
+            <a href="https://play.google.com/store/apps/details?id=com.anda.package" style="display: inline-block; background: #4285f4; color: white; padding: 10px 15px; text-decoration: none; border-radius: 4px;">
+                Download di Google Play Store
+            </a>
+        </p>
+
+        <h2>Dukungan</h2>
+        <p>Jika Anda mengalami masalah dengan link aplikasi, silakan hubungi kami di <a href="mailto:support@domain-anda.com">support@domain-anda.com</a></p>
+    </div>
+</body>
+</html>
